@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/index.js"],"names":["model","apiKeyButtonText","ko","applyBindings"],"mappings":";AAAA,IAAMA,EAAQ,CACZC,iBAAkB,QAGpBC,GAAGC,cAAcH","file":"src.e4908db7.js","sourceRoot":"..","sourcesContent":["const model = {\n  apiKeyButtonText: \"Save\"\n};\n\nko.applyBindings(model);"]}

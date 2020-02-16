@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build -d docs --public-url '.' index.html",
+    "build": "parcel build -d docs --public-url '.' index.pug",
     "prebuild": "rm -rf docs/*",
-    "start": "parcel -d dev index.html"
+    "start": "parcel -d dev index.pug"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "pug": "^2.0.4"
+  }
 }
